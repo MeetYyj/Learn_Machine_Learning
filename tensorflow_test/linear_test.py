@@ -23,7 +23,7 @@ sess = tf.Session()
 sess.run(init)
 
 for step in range(200):
-    sess.run(train)
     if step % 20 == 0:
-        print(step, sess.run(Weight), sess.run(bias))
+        print(step, sess.run(Weight), sess.run(bias), sess.run(loss))
+    sess.run(train)
 
