@@ -83,12 +83,18 @@ celerybeat-schedule
 
 # Environments
 .env
+.env1
 .venv
+.idea
 env/
+env1
 venv/
+venv1/
 ENV/
 env.bak/
+env1.bak/
 venv.bak/
+venv1.bak/
 
 # Spyder project settings
 .spyderproject
